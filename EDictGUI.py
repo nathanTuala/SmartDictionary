@@ -1,5 +1,3 @@
-import eyed3
-import glob
 import wx
 import mysql.connector
 from selenium import webdriver
