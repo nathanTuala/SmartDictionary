@@ -35,8 +35,8 @@ class SmartDict:
         mydb=mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="Dieuestbon1!",
-            database="Edictdb"
+            passwd="my_password",
+            database="my_database"
         )
         mycursor = mydb.cursor()
         mycursor.execute("SELECT * FROM Fdict")
